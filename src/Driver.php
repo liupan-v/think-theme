@@ -9,7 +9,7 @@
 namespace liupanv\think\theme;
 
 
-use liupan\think\theme\library\Templete;
+use liupanv\think\theme\library\Templete;
 use think\App;
 use think\exception\TemplateNotFoundException;
 use think\Loader;
