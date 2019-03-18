@@ -1,6 +1,6 @@
 {
     "name": "liupan-v/think-theme",
-    "description": "thinkpkp5的一个无侵入式多主题扩展",
+    "description": "thinkpkp5.0的一个无侵入式多主题扩展",
     "type": "library",
     "require": {
         "topthink/framework": "5.0.*"
@@ -16,9 +16,6 @@
     "autoload": {
         "psr-4" : {
             "liupanv\\think\\theme\\"  : "src/"
-        },
-        "files" : [
-            "autoload.php"
-        ]
+        }
     }
 }
