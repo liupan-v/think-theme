@@ -1,6 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
+ * 在原thinkphp框架作者liu21st <liu21st@gmail.com>代码基础上做的修改
  * User: liupan
  * Email: 498501258@qq.com
  * Date: 2019/3/14
@@ -51,7 +52,7 @@ class Driver
             return;
         }
         $this->config['view_path'] = $modulePath.config('think_theme.theme_path') . DIRECTORY_SEPARATOR.config('think_theme.current') . DIRECTORY_SEPARATOR;
-        if(config('?think_theme.callback'))
+        if(config('?think_theme.callback') && is_callable(config('think_theme.callback')))
         {
             config('think_theme.callback')();
         }

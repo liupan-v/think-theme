@@ -1,6 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
+ * 在原thinkphp框架作者liu21st <liu21st@gmail.com>代码基础上做的修改
  * User: liupan
  * Email: 498501258@qq.com
  * Date: 2019/3/14
