@@ -10,7 +10,8 @@ composer require liupan-v/think-theme
 
 ## 使用方法
 
-复制本项目下config目录下的think_theme.php配置文件到你需要开启多主题功能的模块下，并按注释进行相应配置
+复制本项目下config目录下的think_theme.php配置文件到你需要开启多主题功能的模块下，并按注释进行相应配置<br/>
+控制器或其他地方动态修改think_theme配置current的值，可实现模板的切换
 
 ## 注意事项
 
