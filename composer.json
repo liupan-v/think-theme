@@ -3,7 +3,7 @@
     "description": "thinkpkp5的一个无侵入式多主题扩展",
     "type": "library",
     "require": {
-        "topthink/framework": "5.1.*"
+        "topthink/framework": "5.0.*"
     },
     "license": "Apache-2.0",
     "authors": [
