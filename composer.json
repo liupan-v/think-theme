@@ -1,6 +1,6 @@
 {
     "name": "liupan-v/think-theme",
-    "description": "thinkpkp5的一个无侵入式多主题扩展",
+    "description": "thinkpkp5.1的一个无侵入式多主题扩展",
     "type": "library",
     "require": {
         "topthink/framework": "5.1.*"

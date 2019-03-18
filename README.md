@@ -16,3 +16,6 @@ composer require liupan-v/think-theme
 ## 注意事项
 
 不要在要开启多主题的模块下，修改配置文件的template.type配置信息，即template.php配置里的type配置，否则多主题不会生效
+
+## 其他
+tp5.0的多主题：https://github.com/liupan-v/think-theme/tree/tp5.0
