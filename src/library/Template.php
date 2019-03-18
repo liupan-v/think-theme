@@ -13,7 +13,7 @@ use think\Config;
 use think\exception\TemplateNotFoundException;
 use think\Loader;
 
-class Templete
+class Template
 {
     protected $app;
     /**

@@ -10,7 +10,7 @@
 namespace liupanv\think\theme;
 
 
-use liupanv\think\theme\library\Templete;
+use liupanv\think\theme\library\Template;
 use think\App;
 use think\exception\TemplateNotFoundException;
 use think\Loader;
@@ -56,7 +56,7 @@ class Driver
         {
             config('think_theme.callback')();
         }
-        $this->template = new Templete($app, $this->config);
+        $this->template = new Template($app, $this->config);
     }
 
     /**
