@@ -5,7 +5,7 @@
     "require": {
         "topthink/framework": "5.1.*"
     },
-    "license": "1.0",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "liupan",
