@@ -1,6 +1,6 @@
 {
     "name": "liupan-v/think-theme",
-    "description": "thinkpkp5的一个无侵入式多主题插件",
+    "description": "thinkpkp5的一个无侵入式多主题扩展",
     "type": "library",
     "require": {
         "topthink/framework": "5.1.*"
@@ -20,10 +20,5 @@
         "files" : [
             "autoload.php"
         ]
-    },
-    "extra": {
-        "think-config": {
-            "think_theme": "config/think_theme.php"
-        }
     }
 }
