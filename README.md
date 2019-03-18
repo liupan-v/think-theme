@@ -12,3 +12,6 @@ composer require liupan-v/think-theme v1.0<br/>
 1.修改配置文件config.php的template.type配置，把默认的Think改为\liupanv\think\theme\Driver<br/>
 2.复制本项目下extra目录到你需要开启多主题功能的模块下，并按注释进行相应配置<br/>
 3.控制器或其他地方动态修改think_theme配置current的值，可实现模板的切换
+
+##其他
+tp5.1的多主题：https://github.com/liupan-v/think-theme
