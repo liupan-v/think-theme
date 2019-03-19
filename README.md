@@ -2,7 +2,7 @@ ThinkPHP 5.0 多主题模板扩展
 ===============
 
 ## 安装
-composer.json加上"liupan-v/think-theme": "1.0.*"，然后执行composer install<br/>
+composer require liupan-v/think-theme 1.*<br/>
 
 ## 优点
 1.无侵入式, 不影响原来控制器的代码<br/>
