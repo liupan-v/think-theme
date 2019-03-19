@@ -2,7 +2,7 @@ ThinkPHP 5.1 多主题模板扩展
 ===============
 
 ## 安装
-composer require liupan-v/think-theme
+composer require liupan-v/think-theme 2.*
 
 ## 优点
 1.无侵入式, 不影响原来控制器的代码<br/>
