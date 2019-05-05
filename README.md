@@ -19,11 +19,11 @@ composer require liupan-v/think-theme 2.*
 2. 安装主题插件：composer require liupan-v/think-theme 2.*
 3. 复制配置文件：vendor/liupan-v/think-theme/config/think_theme.php复制到application/index/config/think_theme.php
 4. 修改think_theme.php配置信息：
-	return [
-	'is_open' => true, //是否启用多主题配置，false为不开启，走框架默认的模板驱动
-	'current' => 'theme1', //必填，当前主题名称，可在代码里动态赋值来改变当前主题
-	'default' => 'default', //必填，默认主题名称
-	'theme_path' => 'theme', //必填，可为空，主题目录地址，上级是对应的模块地址，如填theme，默认主题的路径则为application/模块名/theme/default
+	    return [
+	    'is_open' => true, //是否启用多主题配置，false为不开启，走框架默认的模板驱动
+	    'current' => 'theme1', //必填，当前主题名称，可在代码里动态赋值来改变当前主题
+	    'default' => 'default', //必填，默认主题名称
+	    'theme_path' => 'theme', //必填，可为空，主题目录地址，上级是对应的模块地址，如填theme，默认主题的路径则为application/模块名/theme/default
 	];
 5. 模板文件路径application/index/theme/theme1
 
